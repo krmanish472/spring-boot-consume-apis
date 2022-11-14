@@ -1,0 +1,21 @@
+###
+GET http://localhost:8080/posts
+
+###
+GET http://localhost:8080/posts?userId=5
+
+###
+GET http://localhost:8080/posts/1
+
+###
+POST http://localhost:8080/posts
+Content-Type: application/json
+
+{
+  "userId": 11,
+  "id": 101,
+  "title": "quaerat velit veniam amet cupiditate aut numquam ut sequi",
+  "body": "in non odio excepturi sint eum\nlabore voluptates vitae quia qui et\ninventore itaque rerum\nveniam non exercitationem delectus aut"
+}
+
+###
